@@ -34,3 +34,15 @@ self.addEventListener('fetch', event => {
 
 
 });
+
+/*self.addEventListener('fetch', event => { 
+const resp = fetch(event.resquest)
+             .then(resp => {
+                 if( resp.ok) return resp;
+                      else return fetch('img/main.jpg');
+                
+        });
+        event.respondWith(
+
+        );
+        });*/
